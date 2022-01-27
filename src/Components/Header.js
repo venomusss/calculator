@@ -3,7 +3,7 @@ import React from 'react';
 function Header(props) {
     return (
         <div className='header'>
-            Сost Сalculator
+            cost calculator
         </div>
     );
 }
