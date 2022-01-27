@@ -7,7 +7,7 @@ function Info(props) {
             <p className='spend'>{props.spend}$</p>
             <p className='top-label top'>you spent</p>
             {props.percentages ? (
-                    <p className='persentages'>{props.percentages.toFixed(1)}%</p>
+                    <p style={{backgroundColor: props.color}} className='persentages'>{props.percentages.toFixed(1)}%</p>
                 ) :
                 (
                     <p>Enter your income or spending</p>
