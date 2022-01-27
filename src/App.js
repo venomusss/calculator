@@ -55,7 +55,7 @@ function App() {
         let sum = list.filter(item => item.id === id)[0].price
         setSpend(spend -= sum);
         setPercentages(percentages=spend / become * 100);
-        setList(list.filter(item => item.id != id));
+        setList(list.filter(item => item.id !== id));
         if(percentages<30) {
             setColor('#d4ffa5')
         }else if(percentages<60 && percentages>30){
